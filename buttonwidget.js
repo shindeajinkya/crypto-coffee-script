@@ -6,7 +6,7 @@ var s = document.getElementsByTagName('script')[0];
 const buttonEventScript = document.createElement('script');
 buttonEventScript.defer = true;
 buttonEventScript.src='https://static.cloudflareinsights.com/beacon.min.js';
-buttonEventScript.dataset.cfBeacon = '{"token": "5717eb7ea3744a03bcc7602ebb5b2856"}'
+buttonEventScript.dataset.cfBeacon = '{"token": "31fafc582c564dca9461cd9a1e3b6f4f"}'
 
 s.parentNode.insertBefore(buttonEventScript, s);
 
